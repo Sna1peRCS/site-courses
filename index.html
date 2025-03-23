@@ -52,21 +52,144 @@
                         </p>
                     </div>
 
-                    <div class="audio-block">
-                        <img src="/img/man-avatar.png" alt="">
-                        <div class="audio-container">
-                            <img src="/img/audio.png" class="audio-track" alt="">
-                            <a href="#" class="play-btn">
-                            </a>
+                    <div class="audio-holder">
+                        <div class="audio-block">
+                            <img src="/img/man-avatar.png" alt="">
+                            <div class="audio-container">
+                                <div class="audio-detail">
+                                    <div class="control">
+                                        <i class="fi-rr-play" id="playPause"></i>
+                                    </div>
+                                    <div id="wave"></div>
+                                </div>
+                            </div>    
                         </div>
 
+                        <div class="audio-author">
+                            <div>
+                                <h2 class="info-title">Testimonial</h2>
+                        <span class="info-subtitle">Tom Hope</span>
+                            </div>
+                            
+                            <div class="time">
+                                <span id="current">0:00</span>
+                                <span id="duration">0:00</span>
+                            </div>
+                        </div>
+    
+                        
                     </div>
 
-                    <h2 class="info-title">Testimonial</h2>
-                    <span class="info-subtitle">Tom Hope</span>
+                    
                 </div>
             </section>
         </div>
     </header>
+
+    <main class="main-content">
+        <div class="container">
+            <section class="courses">
+                <h1 class="course-section-title">Popular Courses <br> this week!</h1>
+
+                <section class="course-row">
+                    <div class="course-card card-big">
+                        <div class="img-container img-card-1">
+                            <span class="btn-time">15 minutes</span>
+                            <span class="btn-raiting">
+                                4.8
+                                <img src="./img/icons/star.svg" width="15px" height="15px" alt="">
+                            </span>
+                        </div>
+
+                        <div class="info-container">
+                            <h4 class="course-category">Photography</h4>
+
+                            <h2 class="course-title">ChromaLens</h2>
+
+                            <p class="course-desc">ChromaLens est cursus inspirans iis qui artem photographiae discere volunt et imagines mirabiles, plenas emotionum et significationis, creare cupiunt. Noster cursus omnes aspectus photographiae modernae comprehendit: a fundamentis operandi cum camera et compositione ad technicas provectas elaborandi imagines in Lightroom et Photoshop.
+
+                                Disces quomodo cum luce naturali et artificiali operari, quomodo animi motus per colores et formas exprimere, et quomodo historias visuales unicas creare. Cursus tam initiis quam peritis photographis accommodatus est, qui suas artes amplificare desiderant.
+                                
+                                Expleto cursu, non solum scientiam profundam habebis, sed etiam portfolio ex optimis operibus tuis, paratum ad clientibus praesentandum vel in projectis personalibus adhibendum.</p>
+                        </div>
+                    </div>
+
+                    <div class="course-card card-small">
+                        <div class="img-container img-card-2">
+                            <span class="btn-time">25 minutes</span>
+                            <span class="btn-raiting">
+                                4.8
+                                <img src="./img/icons/star.svg" width="15px" height="15px" alt="">
+                            </span>
+                        </div>
+
+                        <div class="info-container">
+                            <h4 class="course-category">Web-developer</h4>
+
+                            <h2 class="course-title">CodeCanvas</h2>
+
+                            <p class="course-desc">CodeCanvas est singularis cursus iis destinatus qui artem evolutionis telae (web development) ab initio discere volunt et periti fieri in creandis locis interretialibus modernis, interactivis et elegantis. Noster cursus theoriam et praxim coniungit, ut discipuli non solum technologias principales discant, sicut HTML, CSS, JavaScript, React, Node.js, sed eas etiam in veris projectis adhibere possint.
+
+                                Creativitati et rationi personali maximi momenti damus, ut quisque discipulus suum potentiale explicare possit. Disces quomodo consilia responsiva crees, cum basibus datorum (databases) opereris, efficacitatem locorum interretialium optimizes et recentissimas tendentias evolutionis telae adhibeas.
+                                
+                                Cursus tam initiis quam iis qui scientias suas augere cupiunt accommodatus est. Expleto cursu, portfolio projectorum, testimonium et paratio ad laborem in industria IT habebis.</p>
+                        </div> 
+                    </div>
+                </section>
+
+                <section class="course-row">
+                    <div class="course-card card-small">
+                        <div class="img-container img-card-3">
+                            <span class="btn-time">25 minutes</span>
+                            <span class="btn-raiting">
+                                4.9
+                                <img src="./img/icons/star.svg" width="15px" height="15px" alt="">
+                            </span>
+                        </div>
+
+                        <div class="info-container">
+                            <h4 class="course-category">Photoshop</h4>
+
+                            <h2 class="course-title">DesignLens</h2>
+
+                            <p class="course-desc">DesignLens est cursus singularis iis qui artes professionales in Adobe Photoshop discere volunt et periti designii digitalis fieri cupiunt. Noster cursus omnes aspectus operandi cum programma comprehendit: ab instrumentis et technicis fundamentalibus ad methodos provectas retusurae, creationis graphicorum, collagiorum et elaborationis photographiarum.
+
+                                Disces cum stratis (layers), mascis, filtris et effectibus operari, ac etiam projecta visualia mirabilia pro designio interretiali, rebus publicis (advertising) et instrumentis socialibus creare. Cursus tam initiis quam peritis designatoribus accommodatus est, qui suas scientias augere desiderant.
+                                
+                                Expleto cursu, testimonium, portfolio ex operibus tuis et paratio ad laborem professionalem in campo designii habebis.</p>
+                        </div> 
+                    </div>
+
+                    <div class="course-card card-big">
+                        <div class="img-container img-card-4">
+                            <span class="btn-time">15 minutes</span>
+                            <span class="btn-raiting">
+                                4.9
+                                <img src="./img/icons/star.svg" width="15px" height="15px" alt="">
+                            </span>
+                        </div>
+
+                        <div class="info-container">
+                            <h4 class="course-category">Python</h4>
+
+                            <h2 class="course-title">PyMasters</h2>
+
+                            <p class="course-desc">PyMasters est cursus intensivus iis qui artem programmandi in Python discere volunt. Noster cursus omnes gradus comprehendit — a fundamentis syntaxis et structurarum datorum ad themata provecta, sicut machinalis disciplina (machine learning), evolutio interretialis cum Django et Flask, et automatio munerum.
+
+                                Disces codicem purum, efficientem et sustentabilem scribere, cum bibliothecis operari, sicut NumPy, Pandas, Matplotlib, et propria projecta creare. Cursus multas exercitationes practicas includit, quae te adiuvabunt scientiam confirmare et ad realia problemata in industria IT parare.
+                                
+                                Expleto cursu, testimonium, portfolio projectorum et paratio ad laborem ut Python programmator habebis.</p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </div>
+    </main>
+
+
+
+
+    <script src="./wavesurfer.js"></script>
+    <script src="./media.js"></script>
 </body>
 </html>
